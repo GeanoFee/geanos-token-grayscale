@@ -1,9 +1,10 @@
 {
+  "id": "geanos-token-grayscale",
   "title": "Geano's Token Grayscale",
   "description": "Automatically grayscales tokens when their HP (system.LeP.value) drops to 0.",
   "version": "1.0.0",
   "compatibility": {
-    "minimum": "11",
+    "minimum": "10",
     "verified": "12"
   },
   "authors": [
@@ -16,10 +17,5 @@
   ],
   "url": "https://github.com/GeanoFee/geanos-token-grayscale",
   "manifest": "https://github.com/GeanoFee/geanos-token-grayscale/releases/latest/download/module.json",
-  "download": "https://github.com/GeanoFee/geanos-token-grayscale/releases/latest/download/module.zip",
-  "id": "geanos-token-grayscale",
-  "compatibility": {
-    "minimum": "10",
-    "verified": "12"
-  }
+  "download": "https://github.com/GeanoFee/geanos-token-grayscale/releases/latest/download/module.zip"
 }
