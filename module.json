@@ -2,6 +2,15 @@
   "title": "Geano's Token Grayscale",
   "description": "Automatically grayscales tokens when their HP (system.LeP.value) drops to 0.",
   "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "GeanoFee"
+    }
+  ],
   "scripts": [
     "geanos-token-grayscale.js"
   ],
