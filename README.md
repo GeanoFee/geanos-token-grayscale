@@ -15,3 +15,6 @@ A simple, immersive module for DSA / The Dark Eye that provides immediate visual
 
 - **Manifest URL**: `https://github.com/GeanoFee/geanos-token-grayscale/releases/latest/download/module.json`
 
+---
+## License
+This module is licensed under the [MIT License](LICENSE).
