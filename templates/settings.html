@@ -1,0 +1,34 @@
+<div class="standard-form">
+    <div class="form-group">
+        <label>HP Attribute Path</label>
+        <div class="form-fields">
+            <input type="text" name="hpPath" value="{{hpPath}}">
+        </div>
+        <p class="notes">The data path to the Hit Points attribute (e.g., system.attributes.hp.value or system.LeP.value).</p>
+    </div>
+
+    <div class="form-group">
+        <label>Dead Tint Color</label>
+        <div class="form-fields">
+            <input type="color" name="deadColor" value="{{deadColor}}">
+        </div>
+        <p class="notes">The hex color code to tint the token when HP is 0 or less.</p>
+    </div>
+
+    <div class="form-group">
+        <label>HP Threshold</label>
+         <div class="form-fields">
+            <input type="number" name="threshold" value="{{threshold}}">
+        </div>
+        <p class="notes">Tokens with HP less than or equal to this value will be grayscaled.</p>
+    </div>
+
+    <div class="form-footer">
+        <button type="button" data-action="reset">
+            <i class="fas fa-undo"></i> Reset to Defaults
+        </button>
+        <button type="submit">
+            <i class="fas fa-save"></i> Save Changes
+        </button>
+    </div>
+</div>
