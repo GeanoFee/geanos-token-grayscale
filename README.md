@@ -9,7 +9,7 @@ A simple, immersive module for DSA / The Dark Eye that provides immediate visual
 - **Auto-Restoration**: Removes the tint automatically when Hit Points are restored above 0.
 
 ## 📋 System Support
-- Designed for systems using `system.LeP.value` for Hit Points (e.g., DSA 4.1 / gdsa).
+- System agnostic. Working out of the box for systems using `system.LeP.value` for Hit Points (e.g. gdsa), but has a customizable path in the settings to work with every system.
 
 ## 🚀 Installation
 
@@ -18,3 +18,4 @@ A simple, immersive module for DSA / The Dark Eye that provides immediate visual
 ---
 ## License
 This module is licensed under the [MIT License](LICENSE).
+
